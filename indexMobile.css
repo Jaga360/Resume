@@ -8,7 +8,7 @@ body{
     position: relative;
     display: inline-block;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
 }
 
 h1{
@@ -226,6 +226,7 @@ hr{
     background-color:rgba(144, 219, 144, 0.904) ;
     border-color:rgba(144, 219, 144, 0.904);
     color:whitesmoke;
+    text-decoration: none;
 }
 
 .demo-repo-btn-div{
@@ -259,11 +260,12 @@ hr{
 }
 .contact-message{
     text-align: center;
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Ubuntu', sans-serif;
     font-size: .9em;
+    line-height: 2em;
 }
 .hireme-btn{
     text-align: center;
@@ -276,6 +278,13 @@ hr{
     border-radius:10px;
     top:35%;
     left: 10%;
+    text-decoration: none;
+}
+.hireme-btn:hover{
+    color:blue;
+    background-color: white;
+    border-color: blue;
+    font-weight: bold;
 }
 
 /* contact images */
@@ -294,6 +303,10 @@ hr{
 }
 .social-icons{
     text-align: center;
+}
+
+.social-icons a{
+    text-decoration: none;
 }
 
 .github,.quora,.twitter{
