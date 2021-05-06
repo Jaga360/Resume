@@ -78,7 +78,7 @@ h1{
 
 /* about me  */
 .about{
-    background-color:#f1fcfc; 
+    background-color:#fcffff; 
     z-index: -2;
     position: relative;
     padding-top:10%;
@@ -98,7 +98,7 @@ h1{
     text-align: justify;
     line-height: 2em;
     font-weight: 400;
-    color: #000;
+    color: #27496d;
     font-size: 1.1em;
     width: 75%;
     margin-left: 12%;
@@ -318,7 +318,7 @@ h4{
 
 /* footer */
 .footer{
-    background-color: rgb(110, 248, 234);
+    background-color: #c1ffff;
     padding: 2%;
 }
 .social-icons{
@@ -329,9 +329,11 @@ h4{
     text-decoration: none;
 }
 
-.github,.quora,.twitter{
+.github,.linkedin,.twitter{
     width: 2.5%;
     margin: 1% 2%;
+    background-color: #fcffff;
+    border-radius: 100%;
 }
 
 
