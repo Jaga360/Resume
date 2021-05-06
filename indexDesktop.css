@@ -303,7 +303,7 @@ h4{
     position: absolute;
     padding:1%;
     left: 40%;
-    bottom: 40%;
+    bottom: 35%;
 }
 
 .hireme-btn:hover{
@@ -359,6 +359,12 @@ h4{
     .contact-message{
         width:60%;
     }
+    .github,.linkedin,.twitter{
+        width: 5%;
+        margin: 1% 2%;
+        background-color: #fcffff;
+        border-radius: 100%;
+    }    
 }
 
 @media screen and (min-width:2040px){
